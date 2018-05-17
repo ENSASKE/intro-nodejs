@@ -1,0 +1,22 @@
+{
+    "user1" : {
+       "id": 1,
+       "nombre" : "Grégor González",
+       "password" : "1234",
+       "admin" : true
+       
+    },
+    "user2" : {
+       "id": 2,
+       "nombre" : "Alejandro Duarte",
+       "password" : "1234",
+       "admin" : false
+       
+    },
+    "user3" : {
+       "id": 3,
+       "nombre" : "Johana Davila",
+       "password" : "1234",
+       "admin" : false       
+    }
+ }

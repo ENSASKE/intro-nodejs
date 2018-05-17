@@ -1,0 +1,18 @@
+// para páginas o elementos estáticos o públicos etc
+// entrar en http://localhost:8081/imagenes/google_logo.png
+
+var express = require('express');
+var app = express();
+
+app.use(express.static('static/publico'));
+
+app.get('/', function (req, res) {
+   res.send('Hola Mundo');
+})
+
+var server = app.listen(8081, function () {
+   var host = server.address().address
+   var port = server.address().port
+
+   console.log("Ejemplo de app corriendo en http://%s:%s", host, port)
+})
